@@ -1,0 +1,15 @@
+{
+	"name": "promise-polyfill",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha promise-test.js"
+	},
+	"author": "Bowen",
+	"license": "ISC",
+	"devDependencies": {
+		"mocha": "*",
+		"promises-aplus-tests": "*"
+	}
+}
