@@ -1,0 +1,8 @@
+<view>
+  <view class="count">count: {{count}}</view>
+  <view class="count">last count: {{lastVal}}</view>
+  <view class="count">count + 1: {{countAddOne}}</view>
+  <view class="count">prop1: {{prop1}}</view>
+  <view class="count">prop1 + 1: {{prop1AddOne}}</view>
+</view>
+<button type="primary" catchtap="handleAddTap" class="btn">add</button>
