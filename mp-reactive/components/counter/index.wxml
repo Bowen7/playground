@@ -1,0 +1,13 @@
+<!-- index.wxml -->
+<view>
+  <view class="item">
+    <view class="text">count1: {{count1}}</view>
+    <view class="text">computed count: {{count2}}</view>
+    <button class="btn" type="primary" bindtap="addCount1">add</button>
+  </view>
+  <view class="item">
+    <view class="text">prop count: {{propCount}}</view>
+    <view class="text">prop prop: {{count3}}</view>
+    <button class="btn" type="primary" bindtap="addPropCount">add</button>
+  </view>
+</view>

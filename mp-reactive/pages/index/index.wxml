@@ -1,0 +1,4 @@
+<!-- index.wxml -->
+<view class="container">
+  <counter propCount="{{propCount}}" bindaddPropCount="addPropCount"></counter>
+</view>
